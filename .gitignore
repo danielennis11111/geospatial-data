@@ -1,0 +1,59 @@
+# Sensitive configuration files
+config.py
+*.key
+*.pem
+.env
+
+# Large data files (over 100MB should use Git LFS)
+*.geojson
+*.json
+*.shp
+*.dbf
+*.shx
+*.prj
+
+# Python cache and virtual environment
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+.venv/
+venv/
+env/
+ENV/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# macOS files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Windows files
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Log files
+*.log
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# PyCharm
+.idea/
+
+# VS Code
+.vscode/
+
+# Temporary files
+tmp/
+temp/
+*.tmp
+*.temp 
